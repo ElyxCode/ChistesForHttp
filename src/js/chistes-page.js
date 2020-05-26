@@ -32,10 +32,10 @@ const evento = () => {
 };
 
 // chiste {id, value}
-const dibujarChiste = (chiste) => {
+const dibujarChiste = ({id, value}) => {
 
     const olItem = document.createElement('li');
-    olItem.innerHTML = `${num}. <b>${chiste.id}</b>: ${chiste.value}`;
+    olItem.innerHTML = `${num}. <b>${id}</b>: ${value}`;
     olItem.classList.add('list-group-item');
     olList.append(olItem);
     num++;
