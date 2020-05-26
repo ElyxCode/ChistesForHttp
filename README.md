@@ -1,14 +1,5 @@
-# Webpack Starter
+# Pagina de Chistes
 
-Este el proyecto inicial para crear aplicaciones creando webpack.
+Una pagina de chistes donde se consume la API de ChuckNorris.oi y se presenta un lista de  
+chistes. Cada vez que se presiona el boton aparece un nuevo chiste en pantalla como una lista.
 
-### Notas:
-Recuerden reconstruir los modulos de Node.
-```
-npm install
-```
-
-Y para construir el build, recuerden:
-```
-npm run build
-```
